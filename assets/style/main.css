@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+
+header{
+    height: 7%;
+    box-shadow: 0px 0px 3px -2px #2c2c2c;
+
+}
+main{
+    height: 86%;
+    display: flex;
+}
+.content, .control, .tools{
+    height: 100%;
+    overflow:auto;
+
+}
+.control{
+    background-color: #00a4ff;
+    width: 250px;
+}
+.painel{
+    width: 100%;
+    margin: 0 0; 
+    color: whitesmoke;
+}
+
+.painelPro{
+    list-style-type: none;
+    margin: 0;
+}
+.painelPro li{
+    padding: 10px 30px;
+    border-bottom: 1px solid whitesmoke;
+    display: flex;
+    align-items: center;
+}
+.dash{
+    background-color: #2c2c2c;
+    height: 50px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.dash h1{
+    font-size: 1rem;
+    color: #00a4ff;
+    font-weight: 500;
+    border: none;
+}
+.content{
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 3px -2px #2c2c2c;
+
+}
+.contentInside{ 
+}
+.contentNav{
+    background-color: whitesmoke;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+}
+.contentNav li{
+    height: 100%;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+}
+.contentNav li a{
+    text-decoration: none;
+    padding: 30px;
+}
+.tools{
+    width: 60px;
+    background-color: #2c2c2c;
+}
+footer{
+    height: 7%;
+    box-shadow: 0px 0px 3px -2px #2c2c2c;
+
+}
+/*
+main{
+    width: 80%;
+    height: 60%;
+    margin: 50px auto;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aparecer{
+width: 100px;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: black;
+color: blanchedalmond;
+margin: 10px;
+
+}
+
+.apagada{
+    display: none;
+}
+
+.troca{
+    width: 50%;
+    height: 100px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.butao{
+    background-color:honeydew;
+    width: 100px;
+    height: 50px;
+    border: none;
+}
+.numerozinho{
+    padding: 0 5px;
+}*/
+
